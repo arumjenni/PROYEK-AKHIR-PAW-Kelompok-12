@@ -1,0 +1,22 @@
+/vendor
+/node_modules
+.env
+.phpunit.result.cache
+
+# Isi folder runtime diabaikan, tetapi .gitkeep dipertahankan agar folder tetap ada setelah clone
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitkeep
+
+# Foto bukti yang diunggah warga
+/public/uploads/reports/*
+!/public/uploads/reports/.gitkeep
+
+# Cache bootstrap hasil generate
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
